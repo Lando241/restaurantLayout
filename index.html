@@ -13,41 +13,83 @@
     <title>Restaurant Layout</title>
   </head>
   <body>
-    <header>
-      <a href="#"></a>
+    <!-- Header -->
+
+    <header class="header">
+      <a href="#"><img class="logo" src="#" alt="Restaurant Logo" /></a>
       <nav>
-        <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About Us</li>
-          <li><a href="#"></a>Menu</li>
-          <li><a href="#"></a>Order Now</li>
-          <li><a href="#"></a>Blog</li>
-          <li><a href="#"></a>Location</li>
-          <li><a href="#"></a><ion-icon name="cart-outline"></ion-icon></li>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About Us</a></li>
+          <li><a class="nav-link" href="#">Menu</a></li>
+          <li><a class="nav-link" href="#">Order Now</a></li>
+          <li><a class="nav-link" href="#">Blog</a></li>
+          <li>
+            <a class="nav-link" href="#"
+              ><ion-icon name="cart-outline"></ion-icon
+            ></a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <section>
-      <h1>Welcome To Our Cuisine Restaurant</h1>
-      <form action="">
-        <input type="text" placeholder="Search here" />
-        <a href="#">Location</a>
-      </form>
-      <ul>
-        <li><a href="#"></a><ion-icon name="logo-facebook"></ion-icon></li>
-        <li><a href="#"></a><ion-icon name="logo-twitter"></ion-icon></li>
-        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></li>
-      </ul>
+    <!-- Hero Section -->
+
+    <section class="section-hero">
+      <div class="container hero-container">
+        <h1>Welcome To Our Cuisine Restaurant</h1>
+        <form action="">
+          <input type="text" class="searchbar" placeholder="Search here" />
+          <select name="Location" class="location-btn" id="">
+            <option value="">Location</option>
+          </select>
+        </form>
+        <ul class="social-links">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li><span class="social-views">252k</span></li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li><span class="social-views">62k</span></li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li><span class="social-views">55k</span></li>
+        </ul>
+      </div>
     </section>
 
-    <section>
-      <span>About Us</span>
-      <h2>Discover Our Restaurant Story</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam dolorum voluptas, non ullam cumque, assumenda nam beatae nemo et maxime alias, enim quibusdam natus. Unde quod fugit quas corporis et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rem animi sit tenetur fugit, vel nulla perspiciatis amet eligendi. Porro perferendis corporis deleniti esse suscipit alias nulla velit iste. Aperiam.
-      </p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quidem fugiat recusandae id repudiandae autem cumque qui ad similique. Numquam soluta odio quia quo praesentium, architecto eius nisi illum. Eaque!</p>
-      <a href="#">Discover Menu</a>
+    <!-- About Us Section -->
+
+    <section class="section-about">
+      <div class="container">
+        <span>About Us</span>
+        <h2>Discover Our Restaurant Story</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+          dolorum voluptas, non ullam cumque, assumenda nam beatae nemo et
+          maxime alias, enim quibusdam natus. Unde quod fugit quas corporis et?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rem
+          animi sit tenetur fugit, vel nulla perspiciatis amet eligendi. Porro
+          perferendis corporis deleniti esse suscipit alias nulla velit iste.
+          Aperiam.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+          quidem fugiat recusandae id repudiandae autem cumque qui ad similique.
+          Numquam soluta odio quia quo praesentium, architecto eius nisi illum.
+          Eaque!
+        </p>
+        <a href="#">Discover Menu</a>
+      </div>
     </section>
 
     <section>
@@ -60,28 +102,28 @@
         <li>Dessert</li>
       </ul>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
     </section>
 
@@ -98,7 +140,7 @@
         <p>9:00am - 10:00pm</p>
       </div>
       <figure>
-        <img src="#" alt="Food Dish">
+        <img src="#" alt="Food Dish" />
       </figure>
     </section>
 
@@ -106,7 +148,7 @@
       <span>Testimonials</span>
       <h2>Customer's Say</h2>
       <figure>
-        <img src="#" alt="Person">
+        <img src="#" alt="Person" />
       </figure>
       <p>John Smith</p>
       <span>Art Director</span>
@@ -117,7 +159,12 @@
         <ion-icon name="star"></ion-icon>
         <ion-icon name="star"></ion-icon>
       </figure>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, quibusdam, optio quasi dolorem magnam reiciendis porro non veritatis quo, illum ratione voluptate sint cupiditate repellat facilis dignissimos? Velit, nulla doloremque.</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
+        quibusdam, optio quasi dolorem magnam reiciendis porro non veritatis
+        quo, illum ratione voluptate sint cupiditate repellat facilis
+        dignissimos? Velit, nulla doloremque.
+      </p>
     </section>
     <script
       type="module"
