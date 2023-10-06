@@ -176,43 +176,51 @@
     <!-- Business Section -->
 
     <section class="business">
-      <span>Book Table</span>
-      <h2>Opening Hours</h2>
-      <ion-icon name="call-outline"></ion-icon>
-      <span>Call Now</span>
-      <span>(555)555-5555</span>
-      <div>
-        <p>Monday to Thursday</p>
-        <p>11:00am - 8:00pm</p>
-        <p>Friday to Sunday</p>
-        <p>9:00am - 10:00pm</p>
+      <div class="container business-container">
+        <span class="subheading">Book Table</span>
+        <h2 class="secondary-heading">Opening Hours</h2>
+        <ion-icon class="phone-icon" name="call"></ion-icon>
+        <a class="call" href="tel:5555555555">Call Now</a>
+        <span class="phone-number">(555) 555-5555</span>
+        <div class="business-hours">
+          <div class="weekday-container">
+            <p class="week-text">Monday to Thursday</p>
+            <p class="hours">11:00am - 8:00pm</p>
+          </div>
+          <div class="weekend-container">
+            <p class="week-text">Friday to Sunday</p>
+            <p class="hours">9:00am - 10:00pm</p>
+          </div>
+        </div>
+        <figure class="restaurant-img">
+          <img src="/images/restaurant.jpg" alt="Food Dish" />
+        </figure>
       </div>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
     </section>
 
-    <section>
-      <span>Testimonials</span>
-      <h2>Customer's Say</h2>
-      <figure>
-        <img src="#" alt="Person" />
-      </figure>
-      <p>John Smith</p>
-      <span>Art Director</span>
-      <figure>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-        <ion-icon name="star"></ion-icon>
-      </figure>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
-        quibusdam, optio quasi dolorem magnam reiciendis porro non veritatis
-        quo, illum ratione voluptate sint cupiditate repellat facilis
-        dignissimos? Velit, nulla doloremque.
-      </p>
+    <section class="section-testimonial">
+      <div class="container testimonial-container">
+        <span class="subheading">Testimonials</span>
+        <h2 class="secondary-heading">Customer's Say</h2>
+        <figure class="customer-img">
+          <img src="images/me.jpg" alt="Person" />
+        </figure>
+        <p class="customer-name">John Smith</p>
+        <p class="customer-job">Software Engineer</p>
+        <figure class="rating">
+          <ion-icon class="rating-icon" name="star"></ion-icon>
+          <ion-icon class="rating-icon" name="star"></ion-icon>
+          <ion-icon class="rating-icon" name="star"></ion-icon>
+          <ion-icon class="rating-icon" name="star"></ion-icon>
+          <ion-icon class="rating-icon" name="star"></ion-icon>
+        </figure>
+        <p class="review">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus,
+          quibusdam, optio quasi dolorem magnam reiciendis porro non veritatis
+          quo, illum ratione voluptate sint cupiditate repellat facilis
+          dignissimos? Velit, nulla doloremque.
+        </p>
+      </div>
     </section>
     <script
       type="module"

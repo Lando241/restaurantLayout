@@ -3,8 +3,9 @@
 /* Font: 0d0d25 */
 /* Orange Font: ff962c */
 
-/* Gradiant: e7e9e8 to fafafa  */
+/* Gradient: e7e9e8 to fafafa  */
 /* Cuisine Gradient: d8e0e4 to f2f6f7 */
+/* Gold stars: ffc107 */
 
 * {
   box-sizing: border-box;
@@ -37,6 +38,7 @@ h2 {
   font-family: "Yeseva One", serif;
   font-size: 5.2rem;
   padding-bottom: 3.2rem;
+  letter-spacing: 1px;
 }
 
 a {
@@ -226,4 +228,132 @@ h1 {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   width: 100%;
+}
+
+/* ***** BUSINESS SECTION ***** */
+
+.business {
+  background: linear-gradient(to bottom right, #d8e0e4, #f2f6f7);
+}
+
+.business-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 6.4rem 0 9.6rem 0;
+}
+
+.phone-icon {
+  color: #ff8800;
+  height: 2.4rem;
+  width: 2.4rem;
+  border: 2px solid #ff8800;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.call {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.phone-number {
+  font-family: "Yeseva One", serif;
+  color: #ff8800;
+  font-size: 3.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.business-hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25rem;
+}
+
+.weekday-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.week-text {
+  font-size: 1.8rem;
+}
+
+.hours {
+  font-family: "Yeseva One", serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.week-text,
+.hours {
+  padding-bottom: 2rem;
+}
+
+.restaurant-img,
+.customer-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurant-img > img {
+  width: 50%;
+}
+
+/* ***** TESTIMONIAL SECTION ***** */
+
+.section-testimonial {
+  background: linear-gradient(to bottom left, #d8e0e4, #f2f6f7);
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.4rem 0 9.6rem 0;
+}
+
+.subheading,
+.secondary-heading,
+.customer-job {
+  padding-bottom: 2.4rem;
+}
+
+.customer-img,
+.customer-name {
+  padding-bottom: 1.2rem;
+}
+
+.customer-img > img {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.customer-name {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.customer-job {
+  color: #6e6e7c;
+  font-size: 1.2rem;
+}
+
+.rating-icon {
+  color: #ffc107;
+  height: 2.4rem;
+  width: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.review {
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 60%;
 }
