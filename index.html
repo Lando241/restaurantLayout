@@ -38,7 +38,7 @@
     <section class="section-hero">
       <div class="container hero-container">
         <h1>Welcome To Our Cuisine Restaurant</h1>
-        <form action="">
+        <form class="hero-form" action="">
           <input type="text" class="searchbar" placeholder="Search here" />
           <select name="Location" class="location-btn" id="">
             <option value="">Location</option>
@@ -70,64 +70,112 @@
     <!-- About Us Section -->
 
     <section class="section-about">
+      <!-- <img class="about-img" src="pie-photo.png" alt="Photo of a pie" /> -->
       <div class="container">
-        <span>About Us</span>
-        <h2>Discover Our Restaurant Story</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
-          dolorum voluptas, non ullam cumque, assumenda nam beatae nemo et
-          maxime alias, enim quibusdam natus. Unde quod fugit quas corporis et?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim rem
-          animi sit tenetur fugit, vel nulla perspiciatis amet eligendi. Porro
-          perferendis corporis deleniti esse suscipit alias nulla velit iste.
-          Aperiam.
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
-          quidem fugiat recusandae id repudiandae autem cumque qui ad similique.
-          Numquam soluta odio quia quo praesentium, architecto eius nisi illum.
-          Eaque!
-        </p>
-        <a href="#">Discover Menu</a>
+        <div class="about-container">
+          <span class="subheading">About Us</span>
+          <h2 class="secondary-heading">Discover Our Restaurant Story</h2>
+          <p class="about-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+            dolorum voluptas, non ullam cumque, assumenda nam beatae nemo et
+            maxime alias, enim quibusdam natus. Unde quod fugit quas corporis
+            et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+            rem animi sit tenetur fugit, vel nulla perspiciatis amet eligendi.
+            Porro perferendis corporis deleniti esse suscipit alias nulla velit
+            iste. Aperiam.
+          </p>
+          <p class="about-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            quidem fugiat recusandae id repudiandae autem cumque qui ad
+            similique. Numquam soluta odio quia quo praesentium, architecto eius
+            nisi illum. Eaque!
+          </p>
+          <div class="about-btn-container">
+            <a class="about-btn" href="#">Discover Menu</a>
+            <ion-icon class="about-arrow" name="arrow-forward"></ion-icon>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <span>Order Online Now</span>
-      <h2>Our Speciality Cuisine</h2>
-      <ul>
-        <li>Breakfast</li>
-        <li>Lunch</li>
-        <li>Dinner</li>
-        <li>Dessert</li>
-      </ul>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
-      <figure>
-        <img src="#" alt="Food Dish" />
-      </figure>
+    <!-- Cuisine Section -->
+
+    <section class="section-cuisine">
+      <div class="container">
+        <div class="cuisine-container">
+          <span class="subheading">Order Online Now</span>
+          <h2 class="secondary-heading">Our Speciality Cuisine</h2>
+          <ul class="meals">
+            <li><a class="meal breakfast" href="#">Breakfast</a></li>
+            <li><a class="meal" href="#">Lunch</a></li>
+            <li><a class="meal" href="#">Dinner</a></li>
+            <li><a class="meal" href="#">Dessert</a></li>
+          </ul>
+          <div class="gallery">
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish01.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish02.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish03.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish04.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish05.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish06.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish07.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+            <figure class="gallery-item">
+              <img
+                class="gallery-img"
+                src="/images/dish08.jpg"
+                alt="Photo of Food Dish"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <!-- Business Section -->
+
+    <section class="business">
       <span>Book Table</span>
       <h2>Opening Hours</h2>
       <ion-icon name="call-outline"></ion-icon>

@@ -3,6 +3,9 @@
 /* Font: 0d0d25 */
 /* Orange Font: ff962c */
 
+/* Gradiant: e7e9e8 to fafafa  */
+/* Cuisine Gradient: d8e0e4 to f2f6f7 */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -29,6 +32,18 @@ body {
   padding: 0 3.2rem;
 }
 
+h1,
+h2 {
+  font-family: "Yeseva One", serif;
+  font-size: 5.2rem;
+  padding-bottom: 3.2rem;
+}
+
+a {
+  color: inherit;
+  font-size: 1.6rem;
+}
+
 /* ***** HEADER ***** */
 
 .header {
@@ -53,17 +68,16 @@ body {
 /* ***** HERO SECTION ***** */
 
 .section-hero {
-  background-image: url(food-background.jpg);
+  background-image: url(/images/food-background.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-size: cover;
+  max-width: 100%;
   height: 75vh;
   padding: 6.4rem 0;
 }
 
 h1 {
-  font-family: "Yeseva One", serif;
-  font-size: 5.2rem;
   max-width: 40%;
 }
 
@@ -74,24 +88,29 @@ h1 {
   padding: 9.6rem 0;
 }
 
-.searchbar {
-  font-size: 1.6rem;
-  padding: 0.8rem 1.6rem;
-  border-radius: 0.5rem;
-  border: 1px solid #0d0d25;
-  max-width: 30%;
-  outline: none;
+.hero-form {
+  display: flex;
+  align-items: center;
 }
 
+.searchbar,
 .location-btn {
   font-size: 1.6rem;
   padding: 0.8rem 1.6rem;
+}
+
+.searchbar {
+  outline: none;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.location-btn {
   background: #ff8800;
-  margin-left: -0.6rem;
-  border: none;
-  border-left: 1px solid #0d0d25;
-  border-bottom: 1px solid #ff8800;
-  border-radius: 0 0.5rem 0.5rem 0;
+  color: #fafafa;
+  border-top: 2px solid #ff8800;
+  border-left: 1px solid #ff8800;
+  border-radius: 0 5px 5px 0;
 }
 
 .social-links {
@@ -109,4 +128,102 @@ h1 {
   font-size: 1.6rem;
   font-weight: 500;
   margin-left: -2rem;
+}
+
+/* ***** About Us Section ***** */
+
+.section-about {
+  width: 100%;
+  background-image: url(/images/pie-photo.png),
+    linear-gradient(to top, #eceeed, #f9f9f9);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: left;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  max-width: 60%;
+  gap: 2.4rem;
+  padding: 6.4rem 3.2rem 9.6rem 9.6rem;
+}
+
+.subheading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #ff8800;
+  text-align: left;
+}
+
+.about-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding-bottom: 1.2rem;
+}
+
+.about-btn-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4.8rem;
+}
+
+.about-btn,
+.about-arrow {
+  color: #f9f9f9;
+  padding: 0.8rem 1.2rem;
+}
+
+.about-btn {
+  background: #ff8800;
+  border-radius: 5px 0 0 5px;
+}
+
+.about-arrow {
+  font-size: 1.6rem;
+  background: #ffaa4d;
+  border-radius: 0 5px 5px 0;
+}
+
+/* ***** CUISINE SECTION ***** */
+
+.section-cuisine {
+  background: linear-gradient(to top right, #d8e0e4, #f2f6f7);
+}
+
+.cuisine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 6.4rem 0 9.6rem 0;
+}
+
+.meals {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3.2rem;
+  padding-bottom: 2rem;
+  width: 50%;
+  border-bottom: 1px solid #0d0d25;
+}
+
+.breakfast {
+  color: #ff8800;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+  padding: 1.6rem;
+}
+
+.gallery-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
 }
